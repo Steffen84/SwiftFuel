@@ -9,8 +9,9 @@
 Pod::Spec.new do |s|
   s.name             = 'SwiftFuel'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SwiftFuel.'
+  s.summary          = 'SwiftFuel is a collection of extensions and other great utils, designed to fuel your iOS project.'
 
+  s.swift_version   = '4.2'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -18,7 +19,9 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+SwiftFuel is a collection of extensions and other great utils, designed to fuel your iOS project.
+
+UILabel extensions contains a lot of color utils
                        DESC
 
   s.homepage         = 'https://github.com/Steffen84/SwiftFuel'

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		02BB8F92CD65D8231C6C2C1E76B1EDF8 /* SwiftFuel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B90C3C25EC8F62A9EB0D83600AC3A8 /* SwiftFuel-dummy.m */; };
-		0E4EC83140598B406AE605F18B7C9E80 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B02DE993FF93A22F4C919314E5AF6A7 /* ReplaceMe.swift */; };
 		1D954B2688B9DA0CBF7E72BA90B9910E /* Pods-SwiftFuel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7D5BC22D9DFDA494BCC5C656006183A /* Pods-SwiftFuel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		42E2D4370AF6A68211205456535E846B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		45C2A7A664504DBDF8887ADAE9869AB8 /* Pods-SwiftFuel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C3C879109FC3D104F8ACD5A53A7CFD /* Pods-SwiftFuel_Tests-dummy.m */; };
@@ -39,7 +38,6 @@
 
 /* Begin PBXFileReference section */
 		04CE6BD03D1F8B1B70C38193D18F2309 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0B02DE993FF93A22F4C919314E5AF6A7 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SwiftFuel/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		0B1B3CD3A32CF89FEACED82CE106B64B /* Pods-SwiftFuel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftFuel_Example-resources.sh"; sourceTree = "<group>"; };
 		2AC8E5C159B15B2D96C7CFBE1032A35C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C6A50C300D7BE2C9CB4A895ED0EE5D2 /* SwiftFuel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SwiftFuel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -152,10 +150,9 @@
 		643581BC09A2E2497326E467EE3C2E59 /* SwiftFuel */ = {
 			isa = PBXGroup;
 			children = (
-				0B02DE993FF93A22F4C919314E5AF6A7 /* ReplaceMe.swift */,
+				E1B5F11121D8037E00A32CF4 /* UILabelExtensions.swift */,
 				3A4B0C73C5BE3BC6DD3293841D6B0837 /* Pod */,
 				B2E8E24A20B053CA82DA3BE5A263D361 /* Support Files */,
-				E1B5F11121D8037E00A32CF4 /* UILabelExtensions.swift */,
 			);
 			name = SwiftFuel;
 			path = ../..;
@@ -354,7 +351,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E4EC83140598B406AE605F18B7C9E80 /* ReplaceMe.swift in Sources */,
 				02BB8F92CD65D8231C6C2C1E76B1EDF8 /* SwiftFuel-dummy.m in Sources */,
 				E1B5F11221D8037E00A32CF4 /* UILabelExtensions.swift in Sources */,
 			);
