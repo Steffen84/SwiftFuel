@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,8 +20,33 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MA9-CQ-RS0">
+                                <rect key="frame" x="16" y="120" width="343" height="36"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ez2-1Z-vME">
+                                <rect key="frame" x="140" y="206" width="95" height="30"/>
+                                <state key="normal" title="Random color"/>
+                                <connections>
+                                    <action selector="doApplyRandomColorToLabel:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="6u9-pI-0S6"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ez2-1Z-vME" firstAttribute="top" secondItem="MA9-CQ-RS0" secondAttribute="bottom" constant="50" id="DBi-Lp-xoR"/>
+                            <constraint firstItem="MA9-CQ-RS0" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="100" id="Gdp-hu-m1F"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="MA9-CQ-RS0" secondAttribute="trailing" id="Hed-qk-quI"/>
+                            <constraint firstItem="ez2-1Z-vME" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="j4L-ow-UuH"/>
+                            <constraint firstItem="MA9-CQ-RS0" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="jIn-un-D0A"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="exampleLabel" destination="MA9-CQ-RS0" id="BZ1-GU-nHp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

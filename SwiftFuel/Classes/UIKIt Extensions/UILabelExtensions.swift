@@ -10,7 +10,7 @@ import Foundation
 public extension UILabel {
     
     public func setRandomColor() {
-        textColor = UIColor.red
+        textColor = UIColor.random()
     }
     
 }

@@ -11,6 +11,12 @@ import SwiftFuel
 
 class ViewController: UIViewController {
 
+    // MARK: Outlets
+    
+    @IBOutlet weak var exampleLabel: UILabel!
+
+
+    // MARK: Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -22,5 +28,11 @@ class ViewController: UIViewController {
         
     }
 
+    
+    // MARK: Actions
+    
+    @IBAction func doApplyRandomColorToLabel(_ sender: Any) {
+        exampleLabel.setRandomColor()
+    }
+    
 }
-

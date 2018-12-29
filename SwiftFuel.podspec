@@ -8,9 +8,10 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftFuel'
-  s.version          = '0.1.2'
-  s.summary          = 'SwiftFuel is a collection of extensions and other great utils, designed to fuel your iOS project.'
+  s.version          = '0.1.3'
+  s.summary          = 'SwiftFuel is a collection of extensions and other great utilitiess designed to fuel your iOS project.'
 
+  s.iOS
   s.swift_version   = '4.2'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,7 +28,7 @@ UILabel extensions contains a lot of color utils
   s.homepage         = 'https://github.com/Steffen84/SwiftFuel'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = 'SteffenLundAndersen@Gmail.com'
+  s.author           = { 'Steffen Lund Andersen' => 'SteffenLundAndersen@Gmail.com' }
   s.source           = { :git => 'https://github.com/Steffen84/SwiftFuel.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
