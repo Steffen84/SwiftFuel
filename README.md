@@ -1,6 +1,6 @@
 # SwiftFuel
 
-[![CI Status](https://img.shields.io/travis/steffenlundandersen@gmail.com/SwiftFuel.svg?style=flat)](https://travis-ci.org/steffenlundandersen@gmail.com/SwiftFuel)
+
 [![Version](https://img.shields.io/cocoapods/v/SwiftFuel.svg?style=flat)](https://cocoapods.org/pods/SwiftFuel)
 [![License](https://img.shields.io/cocoapods/l/SwiftFuel.svg?style=flat)](https://cocoapods.org/pods/SwiftFuel)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftFuel.svg?style=flat)](https://cocoapods.org/pods/SwiftFuel)
@@ -22,7 +22,7 @@ pod 'SwiftFuel'
 
 ## Author
 
-SteffenLundAndersen@Gmail.com
+Steffen Lund Andersen (SteffenLundAndersen@Gmail.com)
 
 ## License
 
