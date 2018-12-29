@@ -1,0 +1,6 @@
+framework module SwiftFuel {
+  umbrella header "SwiftFuel-umbrella.h"
+
+  export *
+  module * { export * }
+}

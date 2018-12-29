@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		14B8EC845643CF0824430BA6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		14B8EC845643CF0824430BA6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2A3C87696B8151D2416D332D /* Pods-SwiftFuel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftFuel_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftFuel_Tests/Pods-SwiftFuel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2DC4D133A21F33D3A3A9E20D /* Pods_SwiftFuel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftFuel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* SwiftFuel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftFuel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,10 +43,10 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		63026FBC044D7B59262D5A7A /* Pods_SwiftFuel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftFuel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		783729740EE2179B62F19345 /* Pods-SwiftFuel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftFuel_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftFuel_Example/Pods-SwiftFuel_Example.release.xcconfig"; sourceTree = "<group>"; };
-		833F19CB848C6BEE827ED703 /* SwiftFuel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftFuel.podspec; path = ../SwiftFuel.podspec; sourceTree = "<group>"; };
+		833F19CB848C6BEE827ED703 /* SwiftFuel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftFuel.podspec; path = ../SwiftFuel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3013360EA1C6E58DCD7562A /* Pods-SwiftFuel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftFuel_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftFuel_Example/Pods-SwiftFuel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C0F198FBC5FA03DB842232B6 /* Pods-SwiftFuel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftFuel_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftFuel_Tests/Pods-SwiftFuel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E86661C0765E4B2509898546 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E86661C0765E4B2509898546 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -410,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -456,7 +456,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

@@ -1,0 +1,16 @@
+PODS:
+  - SwiftFuel (0.1.0)
+
+DEPENDENCIES:
+  - SwiftFuel (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftFuel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftFuel: b761353c84f3917a15dceb731eff5839e945f930
+
+PODFILE CHECKSUM: ae800bc9d2d326eaf0543b1a065a2802a7fc203a
+
+COCOAPODS: 1.5.3

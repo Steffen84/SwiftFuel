@@ -1,0 +1,6 @@
+framework module Pods_SwiftFuel_Example {
+  umbrella header "Pods-SwiftFuel_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
