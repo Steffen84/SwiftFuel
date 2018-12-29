@@ -17,6 +17,7 @@
 		A813FE9B7998E9DFCA5ECF192064342D /* Pods-SwiftFuel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 880FC9D5FE244426AFC9BBF0584958FD /* Pods-SwiftFuel_Example-dummy.m */; };
 		AADD9717F0688592EA80385E50D5592E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		BF9B6327A7F7B137D8B536A41E98E901 /* SwiftFuel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4128ED4762AE42BDB016742BAED269AC /* SwiftFuel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1B5F11221D8037E00A32CF4 /* UILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B5F11121D8037E00A32CF4 /* UILabelExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		C632CCEB6119A6FEF8BD3C64A6D7C2E9 /* Pods-SwiftFuel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftFuel_Tests-resources.sh"; sourceTree = "<group>"; };
 		CC9B6FFA3D24DC82897DB7F92C61F108 /* Pods-SwiftFuel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftFuel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D1E1AEF80A65AD7F1609ECA3A2C4D28A /* Pods-SwiftFuel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftFuel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E1B5F11121D8037E00A32CF4 /* UILabelExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtensions.swift; sourceTree = "<group>"; };
 		E6C1B43DE115D4899A5CFE55FFC95B86 /* Pods-SwiftFuel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftFuel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EEB81330B4B15BB35A2EC10C270AFB54 /* SwiftFuel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftFuel.xcconfig; sourceTree = "<group>"; };
 		F1C3C879109FC3D104F8ACD5A53A7CFD /* Pods-SwiftFuel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftFuel_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				0B02DE993FF93A22F4C919314E5AF6A7 /* ReplaceMe.swift */,
 				3A4B0C73C5BE3BC6DD3293841D6B0837 /* Pod */,
 				B2E8E24A20B053CA82DA3BE5A263D361 /* Support Files */,
+				E1B5F11121D8037E00A32CF4 /* UILabelExtensions.swift */,
 			);
 			name = SwiftFuel;
 			path = ../..;
@@ -353,6 +356,7 @@
 			files = (
 				0E4EC83140598B406AE605F18B7C9E80 /* ReplaceMe.swift in Sources */,
 				02BB8F92CD65D8231C6C2C1E76B1EDF8 /* SwiftFuel-dummy.m in Sources */,
+				E1B5F11221D8037E00A32CF4 /* UILabelExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

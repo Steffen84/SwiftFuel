@@ -22,7 +22,7 @@ pod 'SwiftFuel'
 
 ## Author
 
-steffenlundandersen@gmail.com, SteffenLundAndersen@Gmail.com
+SteffenLundAndersen@Gmail.com
 
 ## License
 
