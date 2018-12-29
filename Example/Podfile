@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftFuel_Example' do
+  pod 'SwiftFuel', :path => '../'
+
+  target 'SwiftFuel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
