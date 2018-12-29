@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftFuel'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'SwiftFuel is a collection of extensions and other great utils, designed to fuel your iOS project.'
 
   s.swift_version   = '4.2'
